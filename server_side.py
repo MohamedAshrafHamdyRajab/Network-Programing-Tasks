@@ -5,7 +5,7 @@ host ='127.0.0.1'
 port = 40444
 s.bind((host, port)) 
 print ("The socket binded to ",port) 
-s.listen(5)
+s.listen(1)
 print ("The socket is listening") 
 while True:
     connection , address= s.accept() 
